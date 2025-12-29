@@ -43,7 +43,11 @@ The platform for conducting, tracking and checking students' sports activity at 
   ```
 - Setup database from dump and apply migrations
   ```bash
+  # Linux / macOS
   sh scripts/setup_sport_database.sh ./sport_dump.sql
+
+  # Windows (Git Bash)
+  MSYS_NO_PATHCONV=1 sh scripts/setup_sport_database.sh ./sport_dump.sql
   ```
 
 ### Project structure
